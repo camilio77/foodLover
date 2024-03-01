@@ -5,41 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Lover</title>
     <link rel="stylesheet" href="css/style.css">
+    
     <link rel="shortcut icon" href="storage/img/logo.png" type="image/png">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap')
-        </style>
     <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="left">
-                <h2>HOME</h2>
-                <h2>ABOUT</h2>
-                <h2>MENUS</h2>
-                <h2>OFFERTS</h2>
-            </div>
-            <div class="logo"><img src="storage/img/logo.png"></div>
-            <div class="right">
-                <h2>GALLERY</h2>
-                <h2>CONTACT</h2>
-                <h2>BLOG</h2>
-            </div>
+            <nav class="menu">
+                <ul class="menu_item1">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about_item1">about</a></li>
+                    <li><a href="a">menus</a></li>
+                    <li><a href="a">offerts</a></li>
+                </ul>
+                <div class="menu_item2"><img src="storage/img/logo.png"></div>
+                <ul class="menu_item3">
+                    <li><a href="a">gallery</a></li>
+                    <li><a href="a">contact</a></li>
+                    <li><a href="a">blog</a></li>
+                    <li><a href="a"> </a></li>
+                    <li><a href="a"> </a></li>
+                </ul>
+            </nav>
         </header>
-        <div class="content1">
-            <img class="img1" src="storage/img/placeYourImageHere1.png">
-            <div class="CONTACT">
-                <h1 class="h1">Contact Us For Best Breakfast</h1>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cumque iusto quas assumenda tenetur, nesciunt quae, placeat quidem, ea itaque recusandae eligendi.</p>
-                <button><strong>Contact Us</strong></button>
-            </div> 
-        </div>
-        <div class="minicontainer">
-            <div class="ABOUT">
+        <home>
+            <section id="home">
+                <nav class="home_item1">
+                    <img class="img1" src="storage/img/placeYourImageHere1.png">
+                    <div class="contactUs">
+                        <a class="text1"><h1>Contact Us For Best Breakfast</h1></a>
+                        <a class="parragraph1"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates quis, cumque voluptas incidunt adipisci dolorem culpa fugit cupiditate vitae rem, suscipit non debitis.</p></a>
+                        <a class="button1"><button><strong>Contact Us</strong></button></a>
+                    </div> 
+                </nav>
+                <div class="home_item2"></div>
+            </section>
+        </home>
+        <about>
+            <section id="about_item1">
                 <img class="img2" src="storage/img/placeYourImageHereGaleria0.png">
-            </div>    
-        </div>
+                <div class="aboutUs">
+                    <a class="text2"><h1>About Us</h1></a>
+                    <a class="parragraph2"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, voluptas quidem. Reprehenderit quia adipisci commodi laborum esse incidunt non iure quisquam tempore quis suscipit iusto magnam, aperiam quaerat necessitatibus blanditiis.</p></a>
+                </div>
+            </section>
+            <div class="about_item2"></div>
+        </about>
+        <food>
+            <section id="food">
+                <nav class="food_item1">
+                    <div class="food_content1">
+                        <div class="food_text">
+                            <a class="text3"><h1>Our Food Quality</h1></a>
+                            <a class="parragraph3"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi iste dicta id, veniam assumenda ipsa maxime voluptatem facilis repellat perferendis incidunt debitis animi obcaecati dolores repudiandae rem nostrum facere sint.</p></a>
+                        </div>
+                        <img class="food_img1" src="storage/img/placeYourImageHereFood0.png">
+                    </div>
+                    <div class="food_content2">
+                        <img class="food_img2" src="storage/img/placeYourImageHereFood3.png">
+                        <img class="food_img3" src="storage/img/placeYourImageHereFood1.png">
+                    </div>
+                </nav>
+                <nav class="food_item2">
+                    <img class="food_line" src="storage/img/placeYourImageHereFood.png">
+                    <div class="food_item3"></div>
+                </nav>
+            </section>
+        </food>
+        <gallery>
+            <section id="gallery">
+                <nav class="gallery_item1">
+                    <a class="title"><h1>Our Food Gallery</h1></a>
+                    <div class="gallery">
+                        <img src="storage/img/placeYourImageHereGaleria0.png">
+                        <img src="storage/img/placeYourImageHereGaleria1.png">
+                        <img src="storage/img/placeYourImageHereGaleria2.png">
+                        <img src="storage/img/placeYourImageHereGaleria3.png">
+                        <img src="storage/img/placeYourImageHereGaleria4.png">
+                        <img src="storage/img/placeYourImageHereGaleria5.png">
+                    </div>
+                </nav>
+                <nav class="gallery_item2">
+                    <div class="gallery_item3"></div>
+                </nav>
+            </section>
+        </gallery>
     </div>
 </body>
 </html>
