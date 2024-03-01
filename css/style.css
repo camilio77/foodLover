@@ -190,8 +190,8 @@
 .food_img3{
     position: absolute;
     right: 0;
-    height: 125vh;
-    top: 0;
+    height: 120vh;
+    top: 2vh;
 }
 .food_text{
     position: absolute;
@@ -211,7 +211,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    height: 650px;
+    height: 600px;
 }
 
 
@@ -253,13 +253,19 @@
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.gallery_item1 .gallery img:hover{
+    transition: 0.2s ease;
+    transform: scale(1.1);
 }
 
 #enjoy{
     position: absolute;
     height: 100vh;
     width: 100%;
-    top: 590vh;
+    top: 595vh;
     box-sizing: border-box;
 }
 .enjoy_item3{
@@ -295,4 +301,175 @@
 }
 .enjoy_box p{
     font-size: 30px;
+}
+
+
+#menus{
+    position: absolute;
+    height: 130vh;
+    width: 100%;
+    top: 690vh;
+    box-sizing: border-box;
+}
+.menus_item3{
+    width: 100%;
+    height: 130vh;
+    position: absolute;
+    z-index: -1;
+    background: var(--color-secundary);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menus_item1{
+    top: 70px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menus_item1 .title1 h1{
+    color: white;
+    font-size: 8vh;
+    margin-bottom: 5vh;
+}
+.menus{
+    display: flex;
+}
+.menu1, .menu2, .menu3{
+    width: 63vh;
+    margin: 0 2vh;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.menu1:hover, .menu2:hover, .menu3:hover{
+    transition: 0.2s ease;
+    transform: scale(1.1);
+}
+.menu_text{
+    margin-top: 2vh;
+    width: 100%;
+}
+.menu_text .menu_title1{
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.menu_text .menu_paragraph1{
+    color: white;
+    font-weight: bold;
+}
+.menu_text .menu_price1{
+    color: var(--color-primary);
+}
+
+
+#enjoy_meal{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    top: 808vh;
+    box-sizing: border-box;
+}
+.enjoyM_item3{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: -2;
+    background: var(--color-secundary);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enjoyM_item4{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 65vh;
+    top: 6vh;
+    background: var(--color-primary);
+}
+.enjoyM_item1{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.enjoyM_item1 .enjoyM_img{
+    height: 500px;
+}
+.enjoyM_item1 .enjoyM_text{
+    margin-left: 10vh;
+    width: 80vh;
+    color: white;
+    box-sizing: border-box;
+}
+.enjoyM_text .enjoyM_title{
+    font-size: 40px;
+}
+.enjoyM_text .enjoyM_paragraph{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+
+#footer{
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    top: 878vh;
+    box-sizing: border-box;
+}
+.footer_item3{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    z-index: -1;
+    background: var(--color-ternario);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_item1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_item1 .footer_items{
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+    list-style: none;
+    margin: 3vh 0 3vh;
+}
+.footer_items a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-font);
+    transition: 0.2s ease;
+}
+.footer_items a:hover{
+    transition: 0.2s ease;
+    color: var(--color-primary);
+    font-size: 18px;
+}
+.social_media{
+    width: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.social_media img{
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.social_media img:hover{
+    transition: 0.2s ease;
+    background: var(--color-primary);
+    transform: scale(1.1);
 }
